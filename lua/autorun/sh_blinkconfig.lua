@@ -45,7 +45,7 @@ ranklist_group2 = {
     "Imperial General",
     "Director",
     "Grand",
-	"Grand General",
+    "Grand General",
 }
 
 file.Write( "blinkrank/ranktable_cache/categoryid3.txt" ) -- ID Disabled
@@ -54,10 +54,10 @@ ranklist_group3 = {
     "Ensign",
     "Sublieutenant",
     "Lieutenant",
-	"Lieutenant Commander",
-	"Captain",
-	"Commodore",
-	"Admiral",
+    "Lieutenant Commander",
+    "Captain",
+    "Commodore",
+    "Admiral",
 }
 
 -- file.Write( "blinkrank/ranktable_cache/categoryid3.txt" ) -- Enabling this disables the ID
@@ -76,27 +76,27 @@ ranklist_group4 = {
     "Rebel MJR",
     "Rebel Colonel",
     "Rebel Brigadier",
-	"Rebel General",
+    "Rebel General",
 }
 
 file.Write( "blinkrank/ranktable_cache/categoryid5.txt" ) -- ID Disabled
 ranklist_group5 = {
     "Imperial Pilot",
-	"Imperial Marshall",
+    "Imperial Marshall",
 }
 
 file.Write( "blinkrank/ranktable_cache/categoryid6.txt" ) -- ID Disabled
 ranklist_group6 = {
     "Imperial Sovreign Protector",
-	"Dark Jedi Novice",
-	"Dark Jedi Acolyte",
-	"Dark Jedi",
-	"Sith Warrior",
-	"Inquisitor Trainee",
-	"Inquisitor",
-	"Grand Inquisitor",
-	"Darth",
-	"Emperor",
+    "Dark Jedi Novice",
+    "Dark Jedi Acolyte",
+    "Dark Jedi",
+    "Sith Warrior",
+    "Inquisitor Trainee",
+    "Inquisitor",
+    "Grand Inquisitor",
+    "Darth",
+    "Emperor",
 }
 
 end -- END OF RANKS
@@ -142,7 +142,7 @@ NameMenu_Color_Button = Color(41, 128, 185, 250)
 -- Note to add, Multi-language support?
 NameMenu_SetNameText = "Set your Name"
 
-NameMenu_InformationalText = "Welcome to Poseidon Servers. In this panel, you will be setting your Nickname and ID, you will automatically be assigned the rest of your name and will be updated with your rank. If you wish to change your name in the future, you will need to contact a staff member about the change."
+NameMenu_InformationalText = "Welcome to CoolkidsServer. In this panel, you will be setting your Nickname and ID, you will automatically be assigned the rest of your name and will be updated with your rank. If you wish to change your name in the future, you will need to contact a staff member about the change."
 
 NameMenu_ContinueText = "Continue"
 
@@ -176,6 +176,7 @@ end
 
 --[[-------------------------------------------------------------------------
 Make sure to remove the comments (--) to enable the additional categories
+Disable any categories that are not enabled.
 ---------------------------------------------------------------------------]]
 if SERVER then
 
